@@ -2,14 +2,18 @@
   "name": "js_backend",
   "version": "1.0.0",
   "description": "A backend for learning",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/4index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Aditya Chavda",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
